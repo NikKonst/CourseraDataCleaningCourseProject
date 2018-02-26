@@ -61,4 +61,4 @@ Values were processed and reduced to next values:
   
   Character in: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING STANDING, LAYING
 
-* Next 79 columns represent average of variables for each id and activity. Variables are getting from folder "UCI HAR Dataset". All measurements are described in "UCI HAR Dataset/features_info.txt". We extracts only the measurements on the mean and standard deviation for each measurement and calculate average for each id and activity group.
+* Next 79 columns represent average of variables for each id and activity. Variables are getting from folder "UCI HAR Dataset". The measurements used are described above. We extracts only the measurements on the mean and standard deviation for each measurement and calculate average for each id and activity group (grouped by user id and activity).
