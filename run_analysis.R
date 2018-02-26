@@ -52,4 +52,4 @@ df <- tbl_df(df)  # Converting dataframe to tbl dataframe
 tidyDF <- df %>% group_by(subject, activity) %>% summarise_all(mean)  # Grouping by subject and activity and calculating mean
 
 # Write data to CSV
-write.table(tidyDF, file = "output.txt", row.names = FALSE)
+write.table(tidyDF, file = "res.txt", row.names = FALSE)
